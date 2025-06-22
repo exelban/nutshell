@@ -1,7 +1,7 @@
 # NutShell
 
-<p align="center"><img src="https://serhiy.s3.eu-central-1.amazonaws.com/Github_repo/nutshell/nutshell-list.png" width="560" alt="List"></p>
-<p align="center"><img src="https://serhiy.s3.eu-central-1.amazonaws.com/Github_repo/nutshell/nutshell-details.png" width="560" alt="Details"></p>
+[![Stats](https://serhiy.s3.eu-central-1.amazonaws.com/Github_repo/nutshell/nutshell-list.png)]()
+[![Stats](https://serhiy.s3.eu-central-1.amazonaws.com/Github_repo/nutshell/nutshell-details.png)]()
 
 Nutshell is a simple GUI for NUT (Network UPS Tools) that allows you to monitor your UPS devices.
 
@@ -23,8 +23,6 @@ docker -e UPSD_HOST=localhost exelban/nutshell
 Nutshell:
   image: exelban/nutshell:latest
   restart: unless-stopped
-  ports:
-    - "8833:8833"
   environment:
     - UPSD_HOST=localhost
 ```
